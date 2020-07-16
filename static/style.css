@@ -1,0 +1,38 @@
+body {
+    margin: 0%;
+}
+
+#mapid {
+    height: 600px;
+    width: 800px
+ }
+
+#ev-station-list {
+
+}
+.my-container {
+    border: 2em;
+    flex-direction: column;
+    justify-content: center;
+    }
+.my-rowheader {
+    padding: .5%;
+    margin-bottom: 1em;
+    background-color: gray;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.my-row {
+    padding: .3%;
+}
+.my-row:nth-child(even){
+    background: lightgray;
+    color: black;
+}
+li {
+    style: none;
+}
+popup {
+    font-weight: bold;
+}
+

@@ -1,0 +1,38 @@
+{
+"data" : [
+    {
+        "id": 1,
+        "access": "Aparcament public",
+        "charging_speed": "NORMAL",
+        "connection_type": "Schuko",
+        "latitude": "41.401478",
+        "longitude": "2.156578",
+        "name": "B:SM 56 - Plaça del Sol",
+        "power": "",
+        "power_type": "",
+        "address": "Plaça del Sol, 5",
+        "province": "Barcelona",
+        "town": "Barcelona",
+        "parking_slots": 1,
+        "vehicle_type": "cotxe",
+        "geo_reference": "POINT (2.156578 41.401478)"
+    },
+    {
+        "id": 2,
+        "access": "",
+        "charging_speed": "semiRAPID",
+        "connection_type": "TESLA i MENNEKES",
+        "latitude": "41.40548",
+        "longitude": "2.19148",
+        "name": "CC Glories (22kW)",
+        "power": 22,
+        "power_type": "AC",
+        "address": "Avinguda Diagonal 208",
+        "province": "Barcelona",
+        "town": "Barcelona",
+        "parking_slots": 14,
+        "vehicle_type": "",
+        "geo_reference": "POINT (2.19148 41.40548)"
+    }
+]
+}
