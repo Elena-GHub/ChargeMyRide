@@ -11,3 +11,4 @@ __pycache__/__init__.cpython-38.pyc
 .idea/.gitignore
 tests/__pycache__/test_app.cpython-38-pytest-5.4.3.pyc
 tests/__pycache__/test_charging_station_converter.cpython-38-pytest-5.4.3.pyc
+wysiwyg.py
