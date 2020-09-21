@@ -20,22 +20,28 @@
     <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
     <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
     
-            <meta name="viewport" content="width=device-width,
-                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-            <style>
-                #map_16f39317f044471a88f39695e60b4dfe {
-                    position: relative;
-                    width: 100.0%;
-                    height: 100.0%;
-                    left: 0.0%;
-                    top: 0.0%;
-                }
-            </style>
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>
+        #map_16f39317f044471a88f39695e60b4dfe {
+            position: relative;
+            width: 100.0%;
+            height: 100.0%;
+            left: 0.0%;
+            top: 0.0%;
+        }
+        #CMRlogo {
+            position: absolute;
+            z-index: 1000;
+        }
+    </style>
         
 </head>
 <body>    
-    
-            <div class="folium-map" id="map_16f39317f044471a88f39695e60b4dfe" ></div>
+    <div id="CMRlogo">
+        <img src="/images/ChargeMyRide-logo_01.png" alt="Charge my Ride App logo">
+    </div>
+    <div class="folium-map" id="map_16f39317f044471a88f39695e60b4dfe" ></div>
         
 </body>
 <script>    
